@@ -5,8 +5,9 @@ export const LoginForm = () => {
     console.log('I Loaded again') /*crea variable usuario solo se puede llamar cuadno se use setusuario y su valor default es Roberto*/
     const[usuario, setUsuario] = useState(undefined);
     const[password, setPassword] = useState(undefined)
+    
    // const[timesChanged, settimesChanged] = useState(0)
-    //const otherNumber = useRef(0)
+    const otherNumber = useRef(0)
 
     //OnComponentMount
     useEffect(()=>{
